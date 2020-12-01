@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 APoints += 3;
-                mAPointsTV.setText("" + APoints);
+                mAPointsTV.setText(String.valueOf(APoints));
 
             }
         });
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 APoints += 2;
-                mAPointsTV.setText("" + APoints);
+                mAPointsTV.setText(String.valueOf(APoints));
             }
         });
 
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 APoints += 1;
-                mAPointsTV.setText("" + APoints);
+                mAPointsTV.setText(String.valueOf(APoints));
             }
         });
 
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 BPoints += 3;
-                mBPointsTV.setText("" + BPoints);
+                mBPointsTV.setText(String.valueOf(BPoints));
             }
         });
 
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 BPoints += 2;
-                mBPointsTV.setText("" + BPoints);
+                mBPointsTV.setText(String.valueOf(BPoints));
             }
         });
 
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 BPoints += 1;
-                mBPointsTV.setText("" + BPoints);
+                mBPointsTV.setText(String.valueOf(BPoints));
             }
         });
 
@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 APoints = 0;
                 BPoints = 0;
-                mAPointsTV.setText("" + APoints);
-                mBPointsTV.setText("" + BPoints);
+                mAPointsTV.setText(String.valueOf(APoints));
+                mBPointsTV.setText(String.valueOf(BPoints));
             }
         });
 
